@@ -1,3 +1,16 @@
+## Thông tin học viên
+- **Họ tên:** Hoàng Minh Quyền
+- **MSSV:** 2A202603961
+- **Lớp:** L3B 
+
+### Cách chạy
+```powershell
+python src/main.py --part 2   # Guardrails (CP2)
+python src/main.py --part 3   # Pipeline → outputs/results.json (CP3)
+python src/main.py --part 4   # Red + Red Advance → outputs/attack_results.json (CP4)
+python scripts/grade.py --submission-dir . --out outputs/grade_report.json
+```
+
 # Day 11 — Controlled Agent Security (2026)
 
 > 👤 **Hình thức:** bài tập **cá nhân** (1 người / 1 MSSV).  
